@@ -4,7 +4,7 @@
 
 ## Overview
 
-- integration point for custom calculations. connects quick custom calculations to a UI
-- defines a common API for tooling
-- allows a variety of custom calculations to share the same base functions
-- runs as a local web server
+- integration point for a variety of custom calculations
+- is meant to connect those custom calculations to a server or UI
+- defines a common API for different tools
+- allows custom calculations to share the same base functions
