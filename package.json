@@ -1,0 +1,32 @@
+{
+  "name": "sw-toolkit-javascript",
+  "version": "0.0.1",
+  "description": "Salvador Workshop's Javascript Toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "toolkit"
+  ],
+  "author": "R. J. Salvador",
+  "engines": {
+    "node": ">4.0"
+  },
+  "homepage": "https://github.com/salvador-workshop/sw-toolkit-javascript",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/salvador-workshop/sw-toolkit-javascript/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salvador-workshop/sw-toolkit-javascript.git"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.0.5"
+  }
+}
