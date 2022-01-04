@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Salvador Workshop's Javascript Toolkit",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha test.js"
   },
