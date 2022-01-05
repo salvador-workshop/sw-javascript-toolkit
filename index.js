@@ -1,6 +1,3 @@
-const printMsg = function() {
-	console.log("Hello World!");
-	return "Hello World!";
-}
+import Toolkit from './src/app.js';
 
-export { printMsg }
+export default Toolkit;

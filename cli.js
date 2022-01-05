@@ -4,7 +4,7 @@
 
 const DEBUG_MODE = true
 
-import Toolkit from './src/app.js';
+import Toolkit from './index.js';
 
 const [,, ...args] = process.argv
 
@@ -13,10 +13,6 @@ const toolkitRun1 = toolkit.calculate('test1', null);
 const toolkitRun2 = toolkit.calculate('test2', null);
 
 console.log('\n\n//////   DIGITAL TOOLKIT   //////\n')
-
-// console.log(toolkit.list())
-// console.log(toolkit.calculate('test1', null))
-// console.log(toolkit.calculate('test2', null))
 
 console.log('\n\n//////   DIGITAL TOOLKIT   //////\n')
 
